@@ -1,0 +1,85 @@
+body{
+  background-image: url("Images/iplbg1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: system-ui, 'Helvetica Neue', sans-serif;
+}
+
+.ipltable {
+    border-collapse: separate;
+    table-layout: auto;
+    margin: auto;
+    border: 2px;
+    border-spacing: 0 5px;
+    color:white;
+  }
+  
+  .ipltable th, .ipltable td{
+      text-align: center;  
+      border-left: 1px solid #dddddd00;
+      border-right: 1px solid #dddddd00;
+  }
+  
+  .ipltable th {
+    color: white;
+    background-color: #04AA6D;
+    font-display: capitalize;
+    padding: 12px;
+  }
+
+  .ipltable td {
+    background-color: #4169e1a4;
+  }
+ 
+  tr:first-child th:first-child {
+    border-top-left-radius: 10px;
+  }
+
+  tr:first-child th:last-child {
+    border-top-right-radius: 10px;
+  }
+
+  tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+  }
+
+  tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+  }
+
+
+  .headdiv{
+    margin: auto;
+    width:50%;
+    text-align: center;
+    display: flex;
+  }
+
+  .logo{
+     width: 50%;
+  }
+
+  .head1{
+    width: 60%;
+    margin: auto; 
+    font-size: 30px;
+    font-weight:700;
+    color: #DDD;
+  }
+
+  tr:hover {background-color: #D6EEEE;}
+
+  .img{
+    width: 45px;
+  }
+  
+  .team{
+   margin: auto;
+  }
+
+  .flex-container{
+    display: flex;
+  }
+
+  
